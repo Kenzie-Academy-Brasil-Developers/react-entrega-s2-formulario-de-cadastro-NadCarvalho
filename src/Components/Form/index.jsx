@@ -8,6 +8,7 @@ const Form = () => {
         <input type="text" name="email" placeholder="E-mail"></input>
         <input type="password" name="password" placeholder="Senha"></input>
         <input type="password" name="confirm" placeholder="Confirme a senha"></input>
+        <button>Cadastrar</button>
       </form>
     </div>
   )
