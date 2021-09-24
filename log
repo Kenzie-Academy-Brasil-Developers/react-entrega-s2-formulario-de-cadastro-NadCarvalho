@@ -1,0 +1,112 @@
+
+> react-entrega-s2-formulario-de-cadastro-nadcarvalho@0.1.0 start
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.18.4/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/nadia/Documents/KA/Q2/Sprint_02/semana_02/react-entrega-s2-formulario-de-cadastro-nadcarvalho/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view react-entrega-s2-formulario-de-cadastro-nadcarvalho in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.18.4:3000
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Components/Input/index.jsx
+Syntax error: Unexpected token (15:60)
+
+  13 |   return (
+  14 |     <div className={classes.root}>
+> 15 |       <TextField {...props} variant="outlined" inputProps={...formHook}/>
+     |                                                            ^
+  16 |     </div>
+  17 |   );
+  18 | };
+Compiling...
+Failed to compile.
+
+src/Components/Input/index.jsx
+Syntax error: Unexpected token (15:60)
+
+  13 |   return (
+  14 |     <div className={classes.root}>
+> 15 |       <TextField {...props} variant="outlined" inputProps={...formHook}/>
+     |                                                            ^
+  16 |     </div>
+  17 |   );
+  18 | };
+Compiling...
+Failed to compile.
+
+src/Components/Form/index.jsx
+Syntax error: Unexpected token (40:21)
+
+  38 |       <div>
+  39 |         <Input 
+> 40 |           formHook={...register("name")}
+     |                     ^
+  41 |           label={"Name"}
+  42 |           error={errors.name}
+  43 |           helperText={errors.name?.message}
+
+src/Components/Input/index.jsx
+Syntax error: Unexpected token (15:60)
+
+  13 |   return (
+  14 |     <div className={classes.root}>
+> 15 |       <TextField {...props} variant="outlined" inputProps={...formHook}/>
+     |                                                            ^
+  16 |     </div>
+  17 |   );
+  18 | };
+Compiling...
+Failed to compile.
+
+src/Components/Input/index.jsx
+Syntax error: Unexpected token (15:60)
+
+  13 |   return (
+  14 |     <div className={classes.root}>
+> 15 |       <TextField {...props} variant="outlined" inputProps={...formHook}/>
+     |                                                            ^
+  16 |     </div>
+  17 |   );
+  18 | };
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+src/Pages/WelcomePage/index.jsx
+  Line 17:8:  'Button' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!

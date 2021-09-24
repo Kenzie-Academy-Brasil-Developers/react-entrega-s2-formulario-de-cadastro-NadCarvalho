@@ -1,13 +1,11 @@
 import './App.css';
-import {Switch, Route} from 'react-router-dom';
-import FormSignUp from './Pages/FormSignUp'
-
+import Routes from './Routes';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <FormSignUp/>
+        <Routes />
       </header>
     </div>
   );

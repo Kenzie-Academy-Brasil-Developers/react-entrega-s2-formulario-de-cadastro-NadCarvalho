@@ -1,13 +1,12 @@
 import React from 'react';
 import Form from '../../Components/Form'
-import Button from '../../Components/Button'
+import Card from '../../Components/Card'
 
-const FormSignUp = () => {
-  return(
-<div>
-  <Form/>
-  <Button>Cadastrar</Button>
-</div>
+const FormSignUp = ({ handleLogin }) => {
+  return (
+    <Card>
+      <Form handleLogin={handleLogin} />
+    </Card>
   )
 }
 

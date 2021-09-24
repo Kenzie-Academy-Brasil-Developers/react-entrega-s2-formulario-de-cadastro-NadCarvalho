@@ -1,9 +1,9 @@
 import React from 'react';
 
-const WelcomeMessage = ({ person }) => {
+const WelcomeMessage = ({ userName }) => {
   return (
     <div>
-      <h3>Welcome, {person.name}</h3>
+      <h3>Welcome, {userName}</h3>
     </div>
   )
 }
